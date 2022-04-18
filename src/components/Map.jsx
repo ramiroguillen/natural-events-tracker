@@ -5,7 +5,7 @@ import LocationInfoBox from './LocationInfoBox'
 
 // define constants
 const NATURAL_EVENT_WILDFIRE = 8;
-const KEY = process.env.REACT_APP_KEY;
+const KEY = 'AIzaSyANyiYdKJsDMjZA_08-tiJicEuBTA5Q-fk';
 
 const Map = ({ eventData, center, zoom }) => {
     const [locationInfo, setLocationInfo] = useState(null)
