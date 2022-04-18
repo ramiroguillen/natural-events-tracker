@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/natural-events-tracker/static/css/main.7635dfe2.chunk.css",
-    "main.js": "/natural-events-tracker/static/js/main.1a460c9d.chunk.js",
-    "main.js.map": "/natural-events-tracker/static/js/main.1a460c9d.chunk.js.map",
+    "main.js": "/natural-events-tracker/static/js/main.50c1d0f4.chunk.js",
+    "main.js.map": "/natural-events-tracker/static/js/main.50c1d0f4.chunk.js.map",
     "runtime-main.js": "/natural-events-tracker/static/js/runtime-main.c8b1f0f2.js",
     "runtime-main.js.map": "/natural-events-tracker/static/js/runtime-main.c8b1f0f2.js.map",
     "static/js/2.3e910511.chunk.js": "/natural-events-tracker/static/js/2.3e910511.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c8b1f0f2.js",
     "static/js/2.3e910511.chunk.js",
     "static/css/main.7635dfe2.chunk.css",
-    "static/js/main.1a460c9d.chunk.js"
+    "static/js/main.50c1d0f4.chunk.js"
   ]
 }
