@@ -1,113 +1,129 @@
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
-  }
-  
-  .header {
-    padding: 10px;
-    background-color: #007acc;
-    color: #fff;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 100;
-  }
-  
-  .header h1 {
-    font-size: 25px;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-  }
-  
-  .map {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-  }
-  
-  .wildfires-icon {
-    font-size: 2rem;
-    color: rgb(231, 80, 80);
-  }
-  .severeStorm-icon {
-    font-size: 2rem;
-    color: rgb(78, 78, 78);
-  }
-  .seaLakeIce-icon {
-    font-size: 2rem;
-    color: rgb(67, 67, 230);
-  }
-  .drought-icon {
-    font-size: 2rem;
-    color: rgb(85, 65, 65);
-  }
-  .dustHaze-icon {
-    font-size: 2rem;
-    color: rgb(54, 52, 52);
-  }
-  .earthquake-icon {
-    font-size: 2rem;
-    color: rgb(46, 30, 30);
-  }
-  .floods-icon {
-    font-size: 2rem;
-    color: rgb(42, 42, 92);
-  }
-  .landslides-icon {
-    font-size: 2rem;
-    color: rgb(70, 58, 43);
-  }
-  .snow-icon {
-    font-size: 2rem;
-    color: rgb(58, 123, 145);
-  }
-  .tempExtremes-icon {
-    font-size: 2rem;
-    color: black;
-  }
-  .volcanoes-icon {
-    font-size: 2rem;
-    color: rgb(49, 25, 25);
-  }
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
 
-  
-  .loader {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-  }
-  
-  .loader img {
-    width: 400px;
-  }
-  
-  .loader h1 {
-    margin-top: -100px;
-  }
-  
+.header {
+  padding: 10px;
+  background-color: #007acc;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.header h1 {
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.map {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.wildfires-icon {
+  font-size: 2rem;
+  color: rgb(231, 80, 80);
+}
+
+.severeStorm-icon {
+  font-size: 2rem;
+  color: rgb(78, 78, 78);
+}
+
+.seaLakeIce-icon {
+  font-size: 2rem;
+  color: rgb(67, 67, 230);
+}
+
+.drought-icon {
+  font-size: 2rem;
+  color: rgb(85, 65, 65);
+}
+
+.dustHaze-icon {
+  font-size: 2rem;
+  color: rgb(54, 52, 52);
+}
+
+.earthquake-icon {
+  font-size: 2rem;
+  color: rgb(46, 30, 30);
+}
+
+.floods-icon {
+  font-size: 2rem;
+  color: rgb(42, 42, 92);
+}
+
+.landslides-icon {
+  font-size: 2rem;
+  color: rgb(70, 58, 43);
+}
+
+.snow-icon {
+  font-size: 2rem;
+  color: rgb(58, 123, 145);
+}
+
+.tempExtremes-icon {
+  font-size: 2rem;
+  color: black;
+}
+
+.volcanoes-icon {
+  font-size: 2rem;
+  color: rgb(49, 25, 25);
+}
+
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.loader img {
+  width: 400px;
+}
+
+.loader h1 {
+  margin-top: -100px;
+}
+
+.location-info {
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  width: 250px;
+  min-height: 200px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  font-size: 18px;
+  color: #fff;
+}
+
+@media screen and (max-width: 360px) {
   .location-info {
-    position: absolute;
-    top: 80px;
-    right: 50px;
-    width: 400px;
-    min-height: 200px;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 10px;
-    font-size: 18px;
-    color: #fff;
+    width: 250px;
   }
-  
-  .location-info ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .location-info li {
-    padding: 5px 0;
-  }
+}
+
+.location-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.location-info li {
+  padding: 5px 0;
+}
