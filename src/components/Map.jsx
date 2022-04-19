@@ -4,18 +4,14 @@ import LocationMarker from './LocationMarker'
 import LocationInfoBox from './LocationInfoBox'
 
 // define constants
-const NATURAL_EVENT_WILDFIRE = 8;
 const KEY = 'AIzaSyANyiYdKJsDMjZA_08-tiJicEuBTA5Q-fk';
 
 const Map = ({ eventData, center, zoom }) => {
     const [locationInfo, setLocationInfo] = useState(null)
 
-    const markers = eventData.map((ev, index) => {
-        if (ev.categories[0].id === NATURAL_EVENT_WILDFIRE) {
-            return <LocationMarker key={index} lat={ev.geometries[0].coordinates[1]} lng={ev.geometries[0].coordinates[0]} onClick={() => setLocationInfo({ id: ev.id, title: ev.title })} />
-        }
-        return null
-    })
+    const markers = eventData.map((ev, index) => (
+        <LocationMarker key={index} lat={ev.geometry[0].coordinates[1]} lng={ev.geometry[0].coordinates[0]} onClick={() => setLocationInfo({ id: ev.id, title: ev.title })} category={ev.categories[0].id}/>
+    ));
 
     return (
         <div className="map">
@@ -33,10 +29,10 @@ const Map = ({ eventData, center, zoom }) => {
 
 Map.defaultProps = {
     center: {
-        lat: 42.3265,
-        lng: -122.8756
+        lat: 30,
+        lng: 0
     },
-    zoom: 6
+    zoom: 2
 }
 
 export default Map
