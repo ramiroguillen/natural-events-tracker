@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/natural-events-tracker/static/css/main.7635dfe2.chunk.css",
-    "main.js": "/natural-events-tracker/static/js/main.50c1d0f4.chunk.js",
-    "main.js.map": "/natural-events-tracker/static/js/main.50c1d0f4.chunk.js.map",
-    "runtime-main.js": "/natural-events-tracker/static/js/runtime-main.c8b1f0f2.js",
-    "runtime-main.js.map": "/natural-events-tracker/static/js/runtime-main.c8b1f0f2.js.map",
-    "static/js/2.3e910511.chunk.js": "/natural-events-tracker/static/js/2.3e910511.chunk.js",
-    "static/js/2.3e910511.chunk.js.map": "/natural-events-tracker/static/js/2.3e910511.chunk.js.map",
-    "static/js/3.ec4c7ef4.chunk.js": "/natural-events-tracker/static/js/3.ec4c7ef4.chunk.js",
-    "static/js/3.ec4c7ef4.chunk.js.map": "/natural-events-tracker/static/js/3.ec4c7ef4.chunk.js.map",
+    "main.css": "/natural-events-tracker/static/css/main.a052388a.chunk.css",
+    "main.js": "/natural-events-tracker/static/js/main.0364ee71.chunk.js",
+    "main.js.map": "/natural-events-tracker/static/js/main.0364ee71.chunk.js.map",
+    "runtime-main.js": "/natural-events-tracker/static/js/runtime-main.16c151bd.js",
+    "runtime-main.js.map": "/natural-events-tracker/static/js/runtime-main.16c151bd.js.map",
+    "static/js/2.50e26681.chunk.js": "/natural-events-tracker/static/js/2.50e26681.chunk.js",
+    "static/js/2.50e26681.chunk.js.map": "/natural-events-tracker/static/js/2.50e26681.chunk.js.map",
+    "static/js/3.8063f1a6.chunk.js": "/natural-events-tracker/static/js/3.8063f1a6.chunk.js",
+    "static/js/3.8063f1a6.chunk.js.map": "/natural-events-tracker/static/js/3.8063f1a6.chunk.js.map",
     "index.html": "/natural-events-tracker/index.html",
-    "static/css/main.7635dfe2.chunk.css.map": "/natural-events-tracker/static/css/main.7635dfe2.chunk.css.map",
-    "static/js/2.3e910511.chunk.js.LICENSE.txt": "/natural-events-tracker/static/js/2.3e910511.chunk.js.LICENSE.txt"
+    "static/css/main.a052388a.chunk.css.map": "/natural-events-tracker/static/css/main.a052388a.chunk.css.map",
+    "static/js/2.50e26681.chunk.js.LICENSE.txt": "/natural-events-tracker/static/js/2.50e26681.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c8b1f0f2.js",
-    "static/js/2.3e910511.chunk.js",
-    "static/css/main.7635dfe2.chunk.css",
-    "static/js/main.50c1d0f4.chunk.js"
+    "static/js/runtime-main.16c151bd.js",
+    "static/js/2.50e26681.chunk.js",
+    "static/css/main.a052388a.chunk.css",
+    "static/js/main.0364ee71.chunk.js"
   ]
 }
