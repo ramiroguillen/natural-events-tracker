@@ -4,7 +4,7 @@ import LocationMarker from './LocationMarker'
 import LocationInfoBox from './LocationInfoBox'
 
 // define constants
-const KEY = 'AIzaSyANyiYdKJsDMjZA_08-tiJicEuBTA5Q-fk';
+const KEY = '';
 
 const Map = ({ eventData, center, zoom }) => {
     const [locationInfo, setLocationInfo] = useState(null)
